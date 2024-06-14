@@ -16,8 +16,8 @@ let valueInNumber = Number(score);
 
 let isLoogedIn = 0;
 let valueInBoolean = Boolean(isLoogedIn);
-console.log(typeof(valueInBoolean));
-console.log(valueInBoolean);
+// console.log(typeof(valueInBoolean));
+// console.log(valueInBoolean);
 
 // "" => false
 // 1 => true
@@ -26,3 +26,8 @@ console.log(valueInBoolean);
 // "Praful" => true
 // null => false
 // undefined => false
+
+let someNumber = 30;
+let valueInString = String(someNumber);
+console.log(typeof(someNumber));
+console.log(typeof(valueInString));
