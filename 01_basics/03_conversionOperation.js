@@ -29,5 +29,27 @@ let valueInBoolean = Boolean(isLoogedIn);
 
 let someNumber = 30;
 let valueInString = String(someNumber);
-console.log(typeof(someNumber));
-console.log(typeof(valueInString));
+// console.log(typeof(someNumber));
+// console.log(typeof(valueInString));
+
+
+
+/****** Operations *****/ 
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2/2);
+// console.log(2%2);
+// console.log(2**3);
+
+// console.log(1 + "2");
+// console.log("1" + 2);
+// console.log(1 + 1 + "3");
+// console.log(1 + "1" + "3");
+// console.log(1 + "1" + 3);
+// console.log(1 + 6 + "1" + 3);
+
+let gameCounter = 100;
+// gameCounter++; // gameCounter = gameCounter + 1;
+gameCounter = gameCounter + 1;
+console.log(gameCounter);
